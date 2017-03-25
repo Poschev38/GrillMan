@@ -21,8 +21,8 @@ public class GrillMan
 	public void test() throws InterruptedException
 	{ 
 		//WebDriverWait wait = new WebDriverWait(selenium, 30, 500);
-		//selenium.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);  // тест сходит с ума 7 2
-		//selenium.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS); // не работает
+		//selenium.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);  // test shodit s uma
+		//selenium.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS); // ne rabotaet
 		
 		
 		selenium.get("https://grill-man.ru/");	
